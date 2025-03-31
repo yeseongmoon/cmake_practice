@@ -15,3 +15,4 @@
 - target_include_directories
 - target_link_directories
 - target_link_libraries
+- if keyword for a simple cross compile --> if CMAKE_SYSTEM MATCHES Windows/Linux/Darwin : diffrent settings
