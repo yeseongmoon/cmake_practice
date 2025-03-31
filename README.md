@@ -10,7 +10,9 @@
 
 - cmake_minimum_required
 - project keywod
-- set keyword
+- set keyword:
+  - SRC_DIR, INCLUDE_DIR, LIB_DIR,
+  - CMAKE_EXPORT_COMPILE_COMMANDS-->create a compile_commands file
 - add_executable
 - target_include_directories
 - target_link_directories
